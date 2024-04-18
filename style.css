@@ -2,16 +2,18 @@
 
 body {
     background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh sans' ;
+    font-size: 18px;
 }
 
-.cartao {
-    display:flex;
+.container{
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.container {
+.cartao{
     background-color: #fff;
     width: 320px;
     height: 350px;
@@ -28,25 +30,20 @@ body {
     height: 96px;
 }
 
-
-.cartao .conteudo {
+.container .conteudo-informacoes {
     display: flex;
     border-top: 1px solid hsl(227, 10%, 46%);
     width: 100%;
     justify-content: space-around;
-
 }
 
-.cartao .item {
+.container .informacoes1{
     margin: 24px;
-    font-size: 18px;
     font-weight: 700;
-    font-family: 'Kumbh sans';
     text-align: center;
 }
 
 h2 {
-    font-family: 'Kumbh Sans';
     font-size: 18px;
 }
 
@@ -57,8 +54,8 @@ h3 {
     color: hsl(227, 10%, 46%);
 }
 
-.cartao .item1 {
-    font-size:16px;
+.container .informacoes2 {
+    font-size: 16px;
     font-weight: 400;
     color: hsl(227, 10%, 46%);
 }
